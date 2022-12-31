@@ -12,7 +12,35 @@ public class PrimeNumber {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 *
 		 */
+		int numberOfPrimes = 0;
+
+		ArrayList<Integer> arrList = new ArrayList<>();
+
+		for(int i=2; i<=1000000; i++)
+		{
+
+			if(checkPrime(i)){
+
+
+				arrList.add(i);
+
+
+				numberOfPrimes++;
+			}
+		}
+
+
+		System.out.println(numberOfPrimes);
+
 
 	}
 
+	private static boolean checkPrime(int i) {
+		return false;
+	}
+
+	private static class ArrayList<T> {
+		public void add(T i) {
+		}
+	}
 }

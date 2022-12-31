@@ -1,39 +1,113 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A.Data structures make it easy for users to access and work with the data they need in appropriate ways.
+Most importantly, data structures frame the organization of information so that machines and humans can better understand it.
 
 
 What are the various operations that can be performed on different Data Structures?
-List out the areas in which data structures are applied extensively?
-what is an Array?
-what is the difference between the Array and ArrayList?
-what is LinkedList?
-How is an Array different from Linked List?
-what is queue?
-what is stack?
-what is FIFO and LIFO?
-what is the order of complexity?
-what is the best case to search an element from an array?
-what is the worst case to search an element from an array?
-what is tree in data structure?
-what is graph in data structure?
-what is the difference between the HashTable and HashMap?
-What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
-How HashMap works in java?
-What is ArrayIndexOutOfBoundsException in java? When it occurs?
-What are the different ways of copying an array into another array?
-What is difference between an array and a linked list?
-What is DFS and BFS?
-What is Recursion?
-What are linear and non linear data Structures?
-What is Big-(O)-notation?
-Outlined different kind of sorting algorithm with time complexity?
+IsEmpty.
+AddBefore.
+AddAfter.
+push.
+pop.
+ExtractMax.
+sort.
 
-Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+
+
+what is an Array?
+An array is a container object that holds a fixed number of values of a single type. The length of an array is
+established when the array is created. After creation, its length is fixed.
+
+what is the difference between the Array and ArrayList?
+An array has both primitive data types as well as object data types. However, ArrayList has only object-type data
+entries and not primitive data types.
+what is LinkedList?
+
+How is an Array different from Linked List?
+An array is a grouping of data elements of equivalent data type. A linked list is a group of entities called a node.
+
+what is queue?
+Java Queue represents an ordered list of elements.
+
+what is stack?
+Stack is a class that falls under the Collection framework that extends the Vector class. It also implements
+interfaces List, Collection, Iterable, Cloneable, Serializable.
+
+what is FIFO and LIFO?
+FIFO approach is used as an operating system algorithm, which gives every process CPU time in the order they arrive.
+LIFO approach is used as a queuing theory that refers to the way items are stored in types of data
+structures.
+
+what is the order of complexity?
+The most common complexity classes are (in ascending order of complexity): O(1), O(log n), O(n), O(n log n),
+O(n²).
+
+what is the best case to search an element from an array?
+Sequential search is the best that we can do when trying to find a value in an unsorted array.
+
+what is the worst case to search an element from an array?
+Sequential search is the best that we can do when trying to find a value in an unsorted array.
+
+what is tree in data structure?
+A Tree is a non-linear data structure where data objects are generally organized in terms of hierarchical relationship
+
+what is graph in data structure?
+A graph is a data structure for storing connected data such as a network of people on a social media platform.
+
+what is the difference between the HashTable and HashMap?
+HashMap allows one null key and multiple null values whereas Hashtable doesn't allow any null key or value.
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+RDBMS = Array (i.e. Array of structures) Network data model = Graph. Hierarchical data model = Trees.
+
+How HashMap works in java?
+HashMap stores entries into multiple singly linked lists, called buckets or bins. Default number of bins is 16 and it's
+ always power of 2. HashMap uses hashCode() and equals() methods on keys for get and put operations.
+ So HashMap key object should provide good implementation of these methods.
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+The ArrayIndexOutOfBoundsException is a runtime exception in Java that occurs when an array is accessed with an illegal
+index.
+
+What are the different ways of copying an array into another array?
+Iterating each element of the given original array and copy one element at a time.
+Using clone() method.
+Using arraycopy() method.
+Using copyOf() method of Arrays class.
+Using copyOfRange() method of Arrays class
+
+What is difference between an array and a linked list?
+An array is a collection of elements of a similar data type. Linked List is an ordered collection of elements of the
+same type in which each element is connected to the next using pointers.
+
+What is DFS and BFS?
+BFS(Breadth First Search) uses Queue data structure for finding the shortest path. DFS(Depth First Search) uses Stack
+data structure.
+
+What is Recursion?
+Recursion is the technique of making a function call itself
+
+What are linear and non linear data Structures?
+In a linear data structure, the data elements connect to each other sequentially. A user can transverse each
+element through a single run. In a non-linear data structure, the data elements connect to each other
+hierarchically. Thus, they are present at various levels.
+
+What is Big-(O)-notation?
+Big O describes the set of all algorithms that run no worse than a certain speed (it's an upper bound)
+Conversely
+
+Outlined different kind of sorting algorithm with time complexity?
+Merge Sort.
+Heap Sort.
+Insertion Sort.
+Selection Sort.
+Bubble Sort.
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and
+disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.
   c)In terms of Searching element.
   d)In terms of Removing element.
-
-
